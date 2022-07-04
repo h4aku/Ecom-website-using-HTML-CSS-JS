@@ -1,0 +1,60 @@
+.text{
+	font-family: Trebuchet MS;
+	font-size: 50px;
+	text-align: center;
+}
+
+#date{
+	font-family: Trebuchet MS;
+	font-size: 30px;
+	text-align: center;
+}
+
+.up{
+	height: 64%;
+	margin: auto;
+	width: 50%;
+	text-align: center;
+}
+
+.down{
+	height: 34%;
+	margin: auto;
+	width: 50%;
+}
+
+#footer{
+	background-color: #1C4B82;
+	border-top: 5px solid #93B5C6;
+	border-bottom: 5px solid #93B5C6;
+	border-radius: 2px;
+	align-items: center
+}
+
+.fdesc{
+	font-family: Trebuchet MS; 
+	font-size: 30px; 
+	color: #DAE1E7;
+	text-align: center;
+}
+
+.a{
+	text-decoration: none;
+}
+
+.img{
+	margin-top: 20px;
+	margin: 20px;
+}
+
+/*hover effect for social media logos*/
+.img:hover{
+	border-bottom: 4px solid #DD6B4D;
+	border-radius: 5px;
+	transition: 0.1s;
+}
+
+.flogo{
+	 margin: auto;
+	 text-align: center;
+}

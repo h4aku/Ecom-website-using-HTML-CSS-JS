@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="Sujal Maharjan" content="product page after pressing buy">
+		<title>productsbuy</title>
+		<link rel="stylesheet" type="text/css" href="../css/productbuy.css">
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+
+			#navbar{
+				display: flex;
+				align-items: center;
+				padding: 5px;
+				border-bottom: 5px solid #93B5C6;
+				border-radius: 1px;
+			}
+
+			.logo{
+				float: left;
+				margin-left: 20px;
+			}
+
+			nav{
+				flex: 1;
+				text-align: right;
+			}
+
+			nav ul{
+				display: inline-block;
+				list-style: none;
+				position: relative;
+			}
+
+			nav ul li{
+				display: inline-block;
+				margin-right: 20px;
+				position: relative;
+			}
+
+			nav ul li a{ /*navbar font and word spacings*/
+				font-family: Trebuchet MS;
+				text-decoration: none;
+				color: #DAE1E7;
+				font-size: 25px;
+				margin:  20px;
+				position: relative;
+			}
+
+			nav ul li a:hover /*navbar hover effect*/
+			{
+				border-bottom: 4px solid #DD6B4D;
+				border-radius: 5px;
+				color: #DD6B4D;
+				transition: 0.1s;
+			}
+		</style>
+	</head>
+
+	<body bgcolor="#DAE1E7">
+		<header>
+			<!--division for logo and navbar-->
+			<div id="navbar" style="width: 100%; height: 100px; background-color: #183661">
+				
+				<!--logo-->
+				<div class="logo" style="height: 100%; margin: auto 20px;">
+					<a href="../index.html">
+						<img src="../images/logo.png" width="100%" height="100%">
+					</a>
+				</div>
+
+				<!--navbar-->
+				<nav>
+					<ul>
+						<li><a href="../index.html"> Home </a></li>
+						<li><a href="../pages/products.html"> Products </a></li>
+						<li><a href="../pages/contact us.html"> Contact Us </a></li>
+						<li><a href="../pages/blog.html"> Blog </a></li>
+						<li><a href="../pages/research.html"> Research </a></li>
+					</ul>
+				</nav>
+
+			</div>
+		</header>
+
+		<!--Main Container-->
+		<div class="main" style="height: 700px; width: 100%; margin: 60px 0px 60px 0px;">
+
+			<!--Confirmation Image Logo-->
+			<div class="up">
+				<img src="../images/orderconfirm.png" height="100%" width="90%">
+			</div>
+
+			<!--Order confirmation text and date/time-->
+			<div class="down">
+				
+				<p class="text"><b>Your order has been placed!</b></p>
+				<hr>
+				<br>
+				<p class="text" style="font-size: 35px;">Order date and time:</p>
+				<br>
+				<p id="date"></p>
+
+				<script type="text/javascript" src="../js/productbuy.js"></script>
+			</div>
+		</div>
+
+
+		<!--Footer-->
+		<div id="footer" style="height: 200px; width:100%;">
+
+			<!--copyright section left-->
+			<div class="fdesc" style="float: left; height: 100%; width: 35%;">
+				<!--copyright stamp-->
+				<p style="margin-top: 80px;">
+					&copy; LifePages 2022
+				</p>
+			</div>
+			
+			<!--Social media links-->
+			<div class="fdesc" style="float: right; height: 100%; width: 35%;">
+				<p class="fdesc" style="margin-top: 40px;">Follow us here</p>
+
+				<a href="https://www.facebook.com/" class="a">
+					<img src="../images/fb.png" height="20%" class="img">
+				</a>
+				<a href="https://www.instagram.com/" class="a">
+					<img src="../images/ig.png" height="20%" class="img">
+				</a>
+				<a href="https://discord.com/" class="a">
+					<img src="../images/ds.png" height="20%" class="img">
+				</a>
+				<a href="https://www.youtube.com/" class="a">
+					<img src="../images/yt.png" height="20%" class="img">
+				</a>
+				<a href="https://twitter.com/home" class="a">
+					<img src="../images/tw.png" height="20%" class="img">
+				</a>
+			</div>
+
+			<!--Center logo footer-->
+			<div class="flogo" style="height:100%; width: 30%;">
+				<img src="../images/logo.png" height="100%">
+			</div>
+
+		</div>
+	</body>
+</html>

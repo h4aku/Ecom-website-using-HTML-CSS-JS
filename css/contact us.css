@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#main{
+	justify-content: center;
+	align-items: center;
+	margin: 10px 0px 10px 0px;
+}
+
+.clogo{
+	text-align: center;
+	margin-top: 20px;
+	justify-content: center;
+}
+
+.message{
+	background-color: #e8e8e8;
+	border-radius: 15px;
+	box-shadow: 1px 1px 8px 1px;
+	margin: auto; /* to center the contactus div */
+}
+
+h1{
+	font-family: Trebuchet MS;
+	text-align: center;
+}
+
+.form{
+	text-align: center;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+}
+
+/*Adjusting the input area*/
+input[type=text]{
+	width: 90%;
+	padding: 15px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+input[type=number]{
+	width: 90%;
+	padding: 15px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+textarea{
+	border-radius: 10px;
+	padding: 10px;
+	resize: none;
+}
+
+input[type=submit]{
+	width: 90%;
+	margin-top: 20px;
+	padding: 15px;
+	font-family: Trebuchet MS;
+	font-size: 18px;
+	color: #DAE1E7;
+	background-color: #1C4B82;
+	border-radius: 15px;
+}
+
+input[type=submit]:hover{
+	background-color: #DD6B4D;
+	transition: 0.2s;
+}
+
+.c_text{
+	font-family: Trebuchet MS;
+	font-size: 30px;
+	text-align: center;
+}
+
+#footer{
+	background-color: #1C4B82;
+	border-top: 5px solid #93B5C6;
+	border-bottom: 5px solid #93B5C6;
+	border-radius: 2px;
+	align-items: center
+}
+
+.fdesc{
+	font-family: Trebuchet MS; 
+	font-size: 30px; 
+	color: #DAE1E7;
+	text-align: center;
+}
+
+.a{
+	text-decoration: none;
+}
+
+.img{
+	margin-top: 20px;
+	margin: 20px;
+}
+
+/*hover effect for social media logos*/
+.img:hover{
+	border-bottom: 4px solid #DD6B4D;
+	border-radius: 5px;
+	transition: 0.1s;
+}
+
+.flogo{
+	 margin: auto;
+	 text-align: center;
+}
